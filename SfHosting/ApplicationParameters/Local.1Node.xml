@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Name="fabric:/SfHosting" xmlns="http://schemas.microsoft.com/2011/01/fabric" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Parameters>
+    <Parameter Name="NurseryService_InstanceCount" Value="-1" />
+    <!--Parameter Name="DbConnection2" Value="Database=Hollybeck;Server=HP20042460\\Z840SQL2012EXPRS;Uid=hbuser;Password=pa55word;" /-->
+    <!--Parameter Name="DbConnection" Value="Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Hollybeck;Data Source=HP20042460\Z840SQL2012EXPRS"/-->
+    <Parameter Name="DbConnection" Value="Data Source=HP20042460\Z840SQL2012EXPRS;Initial Catalog=Hollybeck;Integrated Security=SSPI;Persist Security Info=False;"/>
+    <Parameter Name="SwaggerVersion" Value="v1"/>
+    <Parameter Name="SwaggerTitle" Value="Nursery RESTful Services"/>
+    <Parameter Name="SwaggerDescription" Value="RESTful Service API for consumption by Associated Garden Centres"/>
+  </Parameters>
+</Application>
