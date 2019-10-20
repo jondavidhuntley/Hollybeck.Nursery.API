@@ -100,6 +100,7 @@ namespace NurseryServices.Controllers
         {
             var result = await _plantDataService.GetPagedPlantsAsync(pageSize, pageNumber);
 
+
             if (result != null)
             {
                 return this.Ok(result);
