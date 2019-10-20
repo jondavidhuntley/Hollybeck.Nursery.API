@@ -1,0 +1,34 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:62156/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SwaggerTitle": "Nursery RESTful Services",
+        "SwaggerDescription": "RESTful Service API for consumption by Associated Garden Centres",
+        "SwaggerVersion": "v2",
+        "DbConnection": "Database=Hollybeck;Server=sql9.hostinguk.net;Uid=hbuser;Password=pa55word",
+        "Port": "1401"
+      }
+    },
+    "NurseryServices": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/plant",
+      "environmentVariables": {        
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:62157/"
+    }
+  }
+}
